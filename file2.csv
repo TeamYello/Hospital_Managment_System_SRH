@@ -1,0 +1,39 @@
+Disease,symptoms
+,
+hypertensive disease,"['pain chest', 'shortness of breath', 'dizziness', 'asthenia', 'fall', 'syncope', 'vertigo', 'sweat', 'sweating increased', 'palpitation', 'nausea', 'angina pectoris', 'pressure chest']"
+,
+diabetes,"['polyuria', 'polydypsia', 'shortness of breath', 'pain chest', 'asthenia', 'nausea', 'orthopnea', 'rale', 'sweat', 'sweating increased', 'unresponsiveness', 'mental status changes', 'vertigo', 'vomiting', 'labored breathing']"
+,
+depression mental,"['feeling suicidal', 'suicidal', 'hallucinations auditory', 'feeling hopeless', 'weepiness', 'sleeplessness', 'motor retardation', 'irritable mood', 'blackout', 'mood depressed', 'hallucinations visual', 'worry', 'agitation', 'tremor', 'intoxication', 'verbal auditory hallucinations', 'energy increased', 'difficulty', 'nightmare', 'unable to concentrate', 'homelessness']"
+,
+depressive disorder,"['feeling suicidal', 'suicidal', 'hallucinations auditory', 'feeling hopeless', 'weepiness', 'sleeplessness', 'motor retardation', 'irritable mood', 'blackout', 'mood depressed', 'hallucinations visual', 'worry', 'agitation', 'tremor', 'intoxication', 'verbal auditory hallucinations', 'energy increased', 'difficulty', 'nightmare', 'unable to concentrate', 'homelessness']"
+,
+coronary arteriosclerosis,"['pain chest', 'angina pectoris', 'shortness of breath', 'hypokinesia', 'sweat', 'sweating increased', 'pressure chest', 'dyspnea on exertion', 'orthopnea', 'chest tightness']"
+,
+coronary heart disease,"['pain chest', 'angina pectoris', 'shortness of breath', 'hypokinesia', 'sweat', 'sweating increased', 'pressure chest', 'dyspnea on exertion', 'orthopnea', 'chest tightness']"
+,
+pneumonia,"['cough', 'fever', 'decreased translucency', 'shortness of breath', 'rale', 'productive cough', 'pleuritic pain', 'yellow sputum', 'breath sounds decreased', 'chill', 'rhonchus', 'green sputum', 'non-productive cough', 'wheezing', 'haemoptysis', 'distress respiratory', 'tachypnea', 'malaise', 'night sweat']"
+,
+failure heart congestive,"['shortness of breath', 'orthopnea', 'jugular venous distention', 'rale', 'dyspnea', 'cough', 'wheezing']"
+,
+accident cerebrovascular,"['dysarthria', 'asthenia', 'speech slurred', 'facial paresis', 'hemiplegia', 'unresponsiveness', 'seizure', 'numbness']"
+,
+asthma,"['wheezing', 'cough', 'shortness of breath', 'chest tightness', 'non-productive cough', 'pleuritic pain', 'productive cough', 'symptom aggravating factors', 'distress respiratory']"
+,
+myocardial infarction,"['pain chest', 'st segment elevation', 'sweat', 'sweating increased', 'shortness of breath', 'st segment depression', 'hypokinesia', 'angina pectoris', 'pressure chest', 't wave inverted', 'orthopnea', 'rale', 'chest tightness', 'presence of q wave', 'palpitation', 'dyspnea', 'chest discomfort', 'bradycardia', 'syncope']"
+,
+hypercholesterolemia,"['pain', 'pain chest', 'sweat', 'sweating increased', 'nonsmoker', 'pressure chest', 'syncope', 'numbness', 'chest discomfort', 'shortness of breath', 'st segment depression', 'worry', 't wave inverted', 'bradycardia', 'dyspnea']"
+,
+infection,"['fever', 'erythema', 'decreased translucency', 'hepatosplenomegaly', 'chill', 'pruritus', 'diarrhea', 'abscess bacterial', 'swelling', 'pain', 'apyrexial', 'cough']"
+,
+infection urinary tract,"['fever', 'dysuria', 'hematuria', 'renal angle tenderness', 'lethargy', 'asthenia', 'hyponatremia', 'hemodynamically stable', 'distress respiratory', 'difficulty passing urine', 'mental status changes', 'consciousness clear']"
+,
+anemia,"['chill', 'guaiac positive', 'monoclonal', 'ecchymosis', 'tumor cell invasion', 'haemorrhage', 'pallor', 'asthenia', 'fatigue', 'heme positive', 'pain back', 'orthostasis', 'hyponatremia', 'dizziness', 'shortness of breath', 'pain', 'rhonchus', 'arthralgia', 'swelling', 'transaminitis']"
+,
+chronic obstructive airway disease,"['shortness of breath', 'wheezing', 'cough', 'dyspnea', 'distress respiratory', 'sputum purulent', 'hypoxemia', 'hypercapnia', 'patient non compliance', 'chest tightness']"
+,
+dementia,"['fever', 'fall', 'unresponsiveness', 'lethargy', 'agitation', 'ecchymosis', 'syncope', 'rale', 'unconscious state', 'cough', 'bedridden', 'bedridden', 'pain', 'facial paresis', 'abdominal tenderness', 'rhonchus', 'unsteady gait', 'hallucinations auditory']"
+,
+insufficiency renal,"['shortness of breath', 'hyperkalemia', 'orthopnea', 'rale', 'urgency of micturition', 'ascites', 'guaiac positive', 'asthenia', 'apyrexial', 'mental status changes', 'dyspnea', 'difficulty', 'diarrhea', 'hypotension', 'breath sounds decreased', 'swelling', 'hypokinesia']"
+,
+confusion,"['seizure', 'enuresis', 'lethargy', 'speech slurred', 'fall', 'consciousness clear', 'mental status changes', 'asterixis', 'unconscious state', 'agitation', 'muscle twitch', 'asthenia', 'sleepy', 'dizziness', 'headache', 'dysarthria', 'lightheadedness', 'tremor', 'hyponatremia', 'unresponsiveness']"
