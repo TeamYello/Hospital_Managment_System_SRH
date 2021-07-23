@@ -1,0 +1,9 @@
+﻿_id,First_Name,Last_Name,Date_of_Birth,e_mail,phone,In_time,Out_time,Shift,Date,Status
+1,Radhika,Sharma,26-09-1995,radhika_sharma.123@gmail.com,9000012345,06:00,14:00,First_shift,20-07-2021,A
+2,Rachel,Christopher,16-02-1990,Rachel_Christopher.123@gmail.com,9000054321,14:00,22:00,Second_shift,20-07-2021,UA
+3,Fathima,Sheik,16-02-1990,Fathima_Sheik.123@gmail.com,9000054321,22:00,06:00,Third_shift,20-07-2021,A
+4,Ram,S,27-06-1997,Ram_S1@hotmail.com,9855033111,06:00,14:00,First_shift,20-07-2021,A
+5,Shyam,Sundar,22-09-1985,Shyam@gmail.com,9989007660,14:00,22:00,Second_shift,20-07-2021,UA
+6,Jane,Matthews,01-02-1987,Jane_M@gmail.com,9980957410,22:00,06:00,Third_shift,20-07-2021,A
+7,Debrah,Morgan,01-06-1993,debrah.morgan@gmail.com,9989903210,14:00,22:00,Second_shift,20-07-2021,UA
+8,Doris,Burke,04-07-1988,doris.burke@gmail.com,9980234112,06:00,14:00,First_shift,20-07-2021,A
