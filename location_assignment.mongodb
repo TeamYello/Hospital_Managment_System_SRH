@@ -1,0 +1,79 @@
+use Emergency_Cars
+db
+
+db.createCollection("ambulances")
+
+db.ambulances.insertOne( {
+    name: "Krishna Sevashram Ambulance",
+   location: { type: "Point", coordinates: [ 77.58500266815773, 12.91755563735541 ] },
+   category: "Cars"
+} )
+
+
+db.ambulances.insertOne( {
+    name: "Cloud 9 Ambulance",
+   location: { type: "Point", coordinates: [ 77.58521724488253, 12.916802709292165 ] },
+   category: "Cars"
+} )
+
+db.ambulances.insertOne( {
+    name: "Shanthi Ambulance",
+   location: { type: "Point", coordinates: [ 77.57954966888413, 12.91662325031991 ] },
+   category: "Cars"
+} )
+
+db.ambulances.insertOne( {
+    name: "Sakra Hospital Ambulance",
+   location: { type: "Point", coordinates: [ 77.57740785084165, 12.919758726865274 ] },
+   category: "Cars"
+} )
+
+db.ambulances.insertOne( {
+    name: "Apollo Ambulance",
+   location: { type: "Point", coordinates: [ 77.5745626269674, 12.920934117797213 ] },
+   category: "Cars"
+} )
+
+db.ambulances.insertOne( {
+    name: "Astra Ambulance",
+   location: { type: "Point", coordinates: [ 77.56550847857116, 12.921871894836329 ] },
+   category: "Cars"
+} )
+
+db.ambulances.insertOne( {
+    name: "Sagar Hospital Ambulance",
+   location: { type: "Point", coordinates: [ 77.56194013801044, 12.914054535609148 ] },
+   category: "Cars"
+} )
+
+db.ambulances.createIndex( { location: "2dsphere" } )
+
+db.ambulances.find(
+   {
+     location:
+       { $near:
+          {
+            $geometry: { type: "Point",  coordinates: [ 77.5847697676151, 12.918272981085599 ] },
+            $minDistance: 50,
+            $maxDistance: 2000
+          }
+       }
+   }
+)
+
+// $geoNear aggregation operation to return documents that match the query filter { category: "Cars" }, sorted in order of nearest to farthest to the specified GeoJSON point:
+
+// db.ambulances.aggregate( [
+   {
+      $geoNear: {
+         near: { type: "Point", coordinates: [ 77.5847697676151, 12.918272981085599 ] },
+         spherical: true,
+         query: { category: "Cars" },
+         distanceField: "calcDistance"
+      }
+   }
+] )
+
+
+
+
